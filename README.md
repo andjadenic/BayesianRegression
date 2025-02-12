@@ -29,4 +29,4 @@ We use MAE and RMSE for model evaluation on testing dataset.
 * `Matplotlib` for visualizations
 
 ### Supplementary PDF
-For more detail read [this PDF file](https://github.com/andjadenic/BayesianRegression/blob/main/Bayesian_Inference_in_Linear_Regression.pdf).
+For more details read [this PDF file](https://github.com/andjadenic/BayesianRegression/blob/main/Bayesian_Inference_in_Linear_Regression.pdf).
