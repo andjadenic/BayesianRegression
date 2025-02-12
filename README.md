@@ -1,5 +1,7 @@
 # Bayesian Inference in Linear Regression: A Case Study using Ironman Triathlon World Championship Data
 
+![Ironman triathlon](https://www.ursus.it/hubfs/Ursus%202022%20-%20Site/Blog/Copertine/Ironman%20e%20Triathlon%20Olimpico%20quali%20differenze%20ci%20sono.jpg)
+
 * The project explores the usage of Bayesian inference in linear regression to predict the overall finish time of participants in the Ironman Triathlon World Championship.
 * The study utilizes datasets from the 2018 and 2019 championships, with run time as the predictor variable and overall finish time as the response variable.
 * 2018 dataset to inform the prior distribution, capturing underlying relationships between run time and finish time.
@@ -18,6 +20,7 @@ $Y = \beta X + \alpha$
 ### Learning Parameters
 * We split the 2019. dataset into train and test subsets.
 * Posteriors for $\alpha$ and $\beta$ are normal distributions learned from the training subset from 2019.
+* 
 
 ### Evaluation
 We use MAE and RMSE for model evaluation on testing dataset.
