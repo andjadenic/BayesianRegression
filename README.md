@@ -13,7 +13,7 @@ This project uses datasets from Ironman, the most popular ultra-triathlon, consi
 ### Model
 We use Bayesian linear regression running time as a predictor $x$ and overall time as a response $y$:
 $Y = \beta X + \alpha$
-* We made an assumption that $\alpha$ and $\beta$ are normally distributed with prior distribution captured in 2018. dataset (for more details read Jupiter Notebook 'choosing_prior.ipynb')
+* We made an assumption that $\alpha$ and $\beta$ are normally distributed with prior distribution captured in 2018. dataset (for more details read Jupiter Notebook ['choosing_prior.ipynb'](https://github.com/andjadenic/BayesianRegression/blob/main/choosing_prior.ipynb)
 
 ### Learning Parameters
 * We split the 2019. dataset into train and test subsets.
@@ -27,3 +27,6 @@ We use MAE and RMSE for model evaluation on testing dataset.
 * `NumPy` for working with matrices
 * `SciPy` for statistical computations
 * `Matplotlib` for visualizations
+
+### Supplementary PDF
+For more detail read [this PDF file](https://github.com/andjadenic/BayesianRegression/blob/main/Bayesian_Inference_in_Linear_Regression.pdf).
